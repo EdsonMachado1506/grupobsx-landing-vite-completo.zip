@@ -22,18 +22,16 @@ export default function App() {
     }
   }}
 >
-  <button
-    style={{
-      marginTop: "2rem",
-      padding: "1rem 2rem",
-      fontSize: "1rem",
-      backgroundColor: "#22c55e",
-      color: "#fff",
-      border: "none",
-      borderRadius: "0.5rem",
-      cursor: "pointer"
-    }}
-  >
+  <button style={{
+    marginTop: "2rem",
+    padding: "1rem 2rem",
+    fontSize: "1rem",
+    backgroundColor: "#22c55e",
+    color: "#fff",
+    border: "none",
+    borderRadius: "0.5rem",
+    cursor: "pointer"
+  }}>
     Fale com um especialista
   </button>
 </a>
