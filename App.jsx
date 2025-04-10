@@ -18,6 +18,9 @@ export default function App() {
       gtag('event', 'conversion', {
         send_to: 'AW-345473416/mcXKCKOF2rYaEIiD3qQB'
       });
+      console.log('✅ Conversão enviada: AW-345473416/mcXKCKOF2rYaEIiD3qQB');
+    } else {
+      console.warn('⚠️ gtag não está definido.');
     }
     setTimeout(() => {
       window.open("https://wa.me/5521994590797", "_blank");
