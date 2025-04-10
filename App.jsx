@@ -10,7 +10,7 @@ export default function App() {
         <p style={{ fontSize: "1.2rem", color: "#4b5563" }}>
           Soluções inteligentes em análise de crédito e relatórios jurídicos para proteger o seu negócio.
         </p>
-    <a
+   <a
   href="#"
   onClick={(e) => {
     e.preventDefault();
@@ -18,7 +18,7 @@ export default function App() {
       gtag('event', 'conversion', {
         send_to: 'AW-345473416/mcXKCKOF2rYaEIiD3qQB'
       });
-      console.log('✅ Conversão enviada: AW-345473416/mcXKCKOF2rYaEIiD3qQB');
+      console.log('✅ Conversão enviada!');
     } else {
       console.warn('⚠️ gtag não está definido.');
     }
