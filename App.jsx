@@ -11,15 +11,17 @@ export default function App() {
           Soluções inteligentes em análise de crédito e relatórios jurídicos para proteger o seu negócio.
         </p>
      <a
-  href="https://wa.me/5521994590797"
-  target="_blank"
-  rel="noopener noreferrer"
-  onClick={() => {
+  href="#"
+  onClick={(e) => {
+    e.preventDefault();
     if (typeof gtag !== "undefined") {
       gtag('event', 'conversion', {
         send_to: 'AW-345473416/mcXKCKOF2rYaEIiD3qQB'
       });
     }
+    setTimeout(() => {
+      window.open("https://wa.me/5521994590797", "_blank");
+    }, 300);
   }}
 >
   <button
