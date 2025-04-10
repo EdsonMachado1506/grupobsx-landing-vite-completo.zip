@@ -13,7 +13,17 @@
       gtag('js', new Date());
       gtag('config', 'G-B3J7J5EEH8');
       gtag('config', 'AW-345473416');
-    </script>
+    <!-- Conversão forçada para ativar a meta -->
+<script>
+  setTimeout(() => {
+    if (typeof gtag !== "undefined") {
+      gtag('event', 'conversion', {
+        send_to: 'AW-345473416/mcXKCKOF2rYaEIiD3qQB'
+      });
+      console.log("✅ Conversão enviada automaticamente");
+    }
+  }, 2000);
+</script>
   </head>
   <body>
     <div id="root"></div>
