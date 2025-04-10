@@ -10,7 +10,7 @@ export default function App() {
         <p style={{ fontSize: "1.2rem", color: "#4b5563" }}>
           Soluções inteligentes em análise de crédito e relatórios jurídicos para proteger o seu negócio.
         </p>
-     <a
+    <a
   href="#"
   onClick={(e) => {
     e.preventDefault();
@@ -21,7 +21,7 @@ export default function App() {
     }
     setTimeout(() => {
       window.open("https://wa.me/5521994590797", "_blank");
-    }, 300);
+    }, 600);
   }}
 >
   <button
