@@ -10,14 +10,14 @@ export default function App() {
         <p style={{ fontSize: "1.2rem", color: "#4b5563" }}>
           Soluções inteligentes em análise de crédito e relatórios jurídicos para proteger o seu negócio.
         </p>
-       <a
+      <a
   href="https://wa.me/5521994590797"
   target="_blank"
   rel="noopener noreferrer"
   onClick={() => {
     if (typeof gtag !== "undefined") {
       gtag('event', 'conversion', {
-        send_to: 'AW-345473416/KXsCcCK3mI7YaEiID3qQB'
+        send_to: 'AW-345473416/ENr1CKRaSLYaEiID3qQB'
       });
     }
   }}
