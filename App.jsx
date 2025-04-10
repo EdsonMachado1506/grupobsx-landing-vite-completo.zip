@@ -8,34 +8,37 @@ export default function App() {
         Decisões seguras começam com informações confiáveis.
       </p>
       <a
-        href="#"
-        onClick={(e) => {
-          e.preventDefault();
-          if (typeof gtag !== "undefined") {
-            gtag('event', 'conversion', {
-              send_to: 'AW-345473416/mcXKCKOF2rYaEIiD3qQB'
-            });
-            console.log('✅ Conversão enviada: AW-345473416/mcXKCKOF2rYaEIiD3qQB');
-          } else {
-            console.warn('⚠️ gtag não está definido.');
-          }
-          setTimeout(() => {
-            window.open("https://wa.me/5521994590797", "_blank");
-          }, 600);
-        }}
-      >
-        <button style={{
-          padding: "1rem 2rem",
-          backgroundColor: "#22c55e",
-          color: "#fff",
-          fontSize: "1rem",
-          border: "none",
-          borderRadius: "0.5rem",
-          cursor: "pointer"
-        }}>
-          Fale com um especialista
-        </button>
-      </a>
+  href="#"
+  onClick={(e) => {
+    e.preventDefault();
+    if (typeof gtag !== "undefined") {
+      gtag('event', 'conversion', {
+        send_to: 'AW-345473416/mcXKCKOF2rYaEIiD3qQB'
+      });
+      console.log('✅ Conversão enviada!');
+    } else {
+      console.warn('⚠️ gtag não está definido.');
+    }
+    setTimeout(() => {
+      window.open("https://wa.me/5521994590797", "_blank");
+    }, 600);
+  }}
+>
+  <button
+    style={{
+      marginTop: "2rem",
+      padding: "1rem 2rem",
+      fontSize: "1rem",
+      backgroundColor: "#22c55e",
+      color: "#fff",
+      border: "none",
+      borderRadius: "0.5rem",
+      cursor: "pointer"
+    }}
+  >
+    Fale com um especialista
+  </button>
+</a>
     </div>
   );
 }
